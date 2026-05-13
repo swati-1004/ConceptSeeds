@@ -1,0 +1,130 @@
+﻿
+
+/* ===== LOGIN PAGE CSS START ===== */
+
+/* ===== Background ===== */
+.user-area {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg,#1f2937,#374151,#111827);
+    font-family: 'Segoe UI',sans-serif;
+}
+
+    /* Center container */
+    .user-area .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* ===== Login Card ===== */
+.user-form-content {
+    width: 100%;
+    max-width: 480px;
+    min-height: 580px;
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 55px 45px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+    /* Hover effect like SaaS dashboards */
+    .user-form-content:hover {
+        transform: translateY(-3px);
+    }
+
+/* ===== Logo ===== */
+.user-form img {
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* ===== Labels ===== */
+.form-group label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 5px;
+}
+
+/* ===== Inputs ===== */
+.form-control {
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    padding-left: 14px;
+    font-size: 14px;
+    transition: all .25s ease;
+}
+
+    .form-control:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+    }
+
+/* ===== Login Button ===== */
+.default-btn {
+    height: 48px;
+    border-radius: 8px;
+    background: #2563eb;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    transition: all .25s ease;
+}
+
+    .default-btn:hover {
+        background: #1e40af;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+/* ===== Signup Button ===== */
+.default-btn-2 {
+    height: 48px;
+    border-radius: 8px;
+    background: #16a34a;
+    border: none;
+    color: #fff;
+}
+
+/* ===== Remember + Forgot ===== */
+.login-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 13px;
+}
+
+/* ===== Signup Text ===== */
+.create {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+/* ===== Footer ===== */
+.user-form p {
+    font-size: 12px;
+}
+
+.logo-box{
+    width:220px;
+    height:80px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.logo-box img{
+    width:260px;   
+    height:auto;
+    object-fit:contain;
+}
